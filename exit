@@ -1,0 +1,6 @@
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/o/www/html/practice/php/laravel/TODO_APP_RTL/todo_rtl_laravel/exit'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall

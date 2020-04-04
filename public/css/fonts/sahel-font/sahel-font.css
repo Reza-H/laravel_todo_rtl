@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Sahel;
+  src: url('sahel/Sahel.eot');
+  src: url('sahel/Sahel.eot?#iefix') format('embedded-opentype'),
+       url('sahel/Sahel.woff2') format('woff2'),
+       url('sahel/Sahel.woff') format('woff'),
+       url('sahel/Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('sahel/Sahel-Bold.eot');
+  src: url('sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('sahel/Sahel-Bold.woff2') format('woff2'),
+       url('sahel/Sahel-Bold.woff') format('woff'),
+       url('sahel/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('sahel/Sahel-Light.eot');
+  src: url('sahel/Sahel-Light.eot?#iefix') format('embedded-opentype'),
+       url('sahel/Sahel-Light.woff2') format('woff2'),
+       url('sahel/Sahel-Light.woff') format('woff'),
+       url('sahel/Sahel-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('sahel/Sahel-SemiBold.eot');
+  src: url('sahel/Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('sahel/Sahel-SemiBold.woff2') format('woff2'),
+       url('sahel/Sahel-SemiBold.woff') format('woff'),
+       url('sahel/Sahel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('sahel/Sahel-Black.eot');
+  src: url('sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('sahel/Sahel-Black.woff2') format('woff2'),
+       url('sahel/Sahel-Black.woff') format('woff'),
+       url('sahel/Sahel-Black.ttf') format('truetype');
+  font-weight: 900;
+}

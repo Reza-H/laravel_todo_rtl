@@ -1,0 +1,268 @@
+/*----------------UTILS----------*/
+.main-shadow{
+  box-sizing: border-box;
+  -webkit-box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51);
+}
+.fixed-top-left{
+  top: 0;
+  left: 0;
+  margin: 0.5rem;
+}
+/*------------------------Plugin`s Css----------------------------*/
+
+/*_________   Parsley js ___________*/
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+  color: #B94A48;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+ul.parsley-errors-list li{
+    /*margin: 0.3rem;*/
+    padding: 0.3rem 0 0 0;
+}
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+/*_________  END Parsley js ___________*/
+
+/*------------------------END Plugin`s Css----------------------------*/
+
+
+body {
+  font-family: 'Sahel', sans-serif;
+  background:  url('/img/1.png'); }
+
+.main-nav {
+  border-bottom: 3px solid #29a19c; }
+  .main-nav .nav-dropdown-right {
+    right: 0 !important;
+    width: 20%; }
+.main-height{
+  height: 73.9vh;
+  overflow-y: auto !important;
+}
+.secondary-height{
+  height: 79vh;
+}
+.main-row {
+  height: 75.9vh;
+  /*width: 100%;*/
+  background: orangered;
+  box-sizing: border-box;
+  -webkit-box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: -11px 10px 17px -8px rgba(0, 0, 0, 0.51); }
+
+
+
+a:hover{
+  text-decoration: none;
+}
+
+#info-box{
+  height: 2vh !important;
+  width: 100%;
+
+}
+
+
+footer {
+  border-top: 3px solid #29a19c; }
+
+.todo_list {
+  background: #fff;
+}
+/* table td[class*=col-], table th[class*=col-] {
+    position: static;
+    display: table-cell;
+    float: none;
+} */
+
+
+/* Model's Checkbox Todo list*/
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+.reveal-if-active label {
+  display: block;
+  margin: 0 0 3px 0;
+}
+
+.reveal-if-active input[type=text] {
+  width: 100%;
+}
+
+input[type=radio]:checked ~ .reveal-if-active,
+input[type=checkbox]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px;
+  padding: 10px 20px;
+  transform: scale(1);
+  overflow: visible;
+  z-index: 9999999999;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.dropdown-menu {
+  z-index: 1001;
+}
+#plus{
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 1s;
+}
+#plus:hover{
+  bottom: 0.3rem;
+}
+/* End Model's Checkbox Todo list*/
+
+/* Single Task Page */
+
+.comment-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  background: #03a9f4;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.comment-section {
+  padding: 0.5rem;
+}
+
+.wrapper-margin-top {
+  margin-top: 0.5rem;
+}
+
+#custom-media-object {
+  border: 1px solid #efefef;
+  padding: 0.2rem;
+  margin-left: 3rem;
+  box-shadow: 1px 1px 1px 1px #efefef;
+}
+
+.custom-media-right {
+  position: relative;
+}
+
+.comment_line {
+  border-bottom: 2px solid #efefef;
+  padding: 0 2px;
+  position: absolute;
+  top: 1.9rem;
+  right: 3.7rem;
+  width: 3rem;
+}
+
+.user-comment {
+  border: 1px solid #efefef;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.user-comment ul {
+  border-bottom: 1px solid #efefef;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: #8a8888;
+}
+
+.user-comment ul li.comment-answer,
+li.comment-edit {
+  float: left;
+}
+
+.user-comment ul li {
+  margin-left: 10px;
+}
+
+.user-comment ul li i {
+  margin-left: 0.5rem;
+}
+
+.user-comment p {
+  padding: 10px;
+}
+
+.comment-answer-section {
+  margin-right: 50px;
+}
+
+.comment-question {
+  background: #faf6ff;
+}
+
+.send-comment {
+  padding: 10px;
+}
+
+.comment-btn-send {
+  float: left;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.media-box {
+  margin-bottom: 0.5rem;
+}
+
+/*info box */
+.line_t{
+    text-decoration: line-through;
+}
+/* tooltipster */
+.tooltip_templates { display: none; }
